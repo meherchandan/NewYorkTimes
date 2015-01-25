@@ -212,6 +212,16 @@
 	border-bottom: 0.5px solid black;
 	
 }
+.bar{
+	width:125%;
+	height: 120px;
+	margin-left: -120px;
+	border-bottom: 1px solid  	#cccccc;
+	border-left: 1px solid #e9ebe4;
+-webkit-box-shadow: -1px 2px 5px 0px rgba(191,173,194,1);
+-moz-box-shadow: -1px 2px 5px 0px rgba(191,173,194,1);
+box-shadow: -1px 2px 5px 0px rgba(191,173,194,1);
+}
 
 a.link{
 	text-decoration: none;
@@ -637,6 +647,7 @@ h3{
 #subs3{
 	background-image: url("http://a1.nyt.com/assets/article/20150122-095020/images/sprite/sprite-no-repeat.png");
 	background-position: -272px -137px;
+	background-repeat: no-repeat;
 	width:16px;
 	height: 16px;
 	color: 	#000000;
@@ -649,7 +660,8 @@ h3{
 #subs4{
 	background-image: url("http://a1.nyt.com/assets/article/20150122-095020/images/sprite/sprite-no-repeat.png");
 	background-position: -401px -64px;
-	width:16px;
+	background-repeat: no-repeat;
+	width:14px;
 	height: 16px;
 	color: 	#000000;
 	font-family: arial;
@@ -661,7 +673,8 @@ h3{
 #subs5{
 	background-image: url("http://a1.nyt.com/assets/article/20150122-095020/images/sprite/sprite-no-repeat.png");
 	background-position: -363px 0px;
-	width:16px;
+	background-repeat: no-repeat;
+	width:14px;
 	height: 16px;
 	color: 	#000000;
 	font-family: arial;
